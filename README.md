@@ -25,6 +25,7 @@
   - or use mySQL workbench: https://dev.mysql.com/downloads/file/?id=490464
     - end point: myfirstdatabase2.c4md1iztmtjn.us-east-1.rds.amazonaws.com
     - use your username and passwork credentials
+  - you can also check this usefull link: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ConnectToInstance.html
   
 - in your VPC
   - check that the security rule of the DB instance meets a private route table
