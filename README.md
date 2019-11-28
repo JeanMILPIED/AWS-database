@@ -17,7 +17,8 @@
 - launch
 - check you can connect using Toad
   - install Toad: https://www.techrepublic.com/blog/tr-dojo/manage-mysql-databases-from-a-windows-desktop-with-toad/
+  - create a new connection in Toad:
+    - 
   
 - in your VPC
-  - create an EC2 instance in a Public Subnet
   - check that the security rule of the DB instance meets a private route table
