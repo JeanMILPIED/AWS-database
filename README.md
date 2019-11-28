@@ -9,12 +9,15 @@
 - create a DB instance name : myfirstdatabase
 - create a mastername and masterpassword: JeanM / JeanM1234
 - check options
+  - connectivity options: 
+    - here to have access from an instance outside EC2, please consider "PUBLIC"
+    - otherwise you will need to connect through a EC2 that you will create
 - chose the appropriate VPC
   - your VPC should have some particular design: 2 AZ, 2 Subnets
   - one option is to chose "create a VPC"
   - create a DB Subnet group
   - create a DB security group: DB SG group
-- launch
+- launch (and wait 5 minutes)
 - check you can connect using Toad
   - install Toad: https://www.techrepublic.com/blog/tr-dojo/manage-mysql-databases-from-a-windows-desktop-with-toad/
   - create a new connection in Toad:
