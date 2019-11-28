@@ -18,7 +18,10 @@
 - check you can connect using Toad
   - install Toad: https://www.techrepublic.com/blog/tr-dojo/manage-mysql-databases-from-a-windows-desktop-with-toad/
   - create a new connection in Toad:
-    - 
+    - DOES NOT SEEM TO WORK
+  - or use mySQL workbench: https://dev.mysql.com/downloads/file/?id=490464
+    - end point: myfirstdatabase2.c4md1iztmtjn.us-east-1.rds.amazonaws.com
+    - use your username and passwork credentials
   
 - in your VPC
   - check that the security rule of the DB instance meets a private route table
