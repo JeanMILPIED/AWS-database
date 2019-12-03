@@ -35,7 +35,7 @@
  
  # create a connection from python
  - use mysql connector
- ``import mysql.connector
+ `import mysql.connector
 from mysql.connector import errorcode
 
 try:
@@ -49,4 +49,4 @@ except mysql.connector.Error as err:
   else:
     print(err)
 else:
-  cnx.close()``
+  cnx.close()`
