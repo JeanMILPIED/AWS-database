@@ -29,3 +29,7 @@
   
 - in your VPC
   - check that the security rule of the DB instance meets a private route table
+ 
+ #create an IAM role credentials to connect to the database
+ see the link: https://aws.amazon.com/premiumsupport/knowledge-center/users-connect-rds-iam/
+ 
